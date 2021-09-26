@@ -457,8 +457,8 @@ footer h3{
         padding-top: 0.6em;
     }
     
-    main{
-        padding: 6em 2em 2em 2em;
+    article{
+        margin: 3em;
     }
 }
 @media screen and (max-width:413px){
@@ -468,7 +468,7 @@ footer h3{
 }
 @media screen and (max-width:400px){
     article:nth-of-type(4) img {
-        width:350px;
+        width: 313px;;
     }
 }
 @media screen and (max-width:368px){
