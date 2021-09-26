@@ -133,20 +133,16 @@ main p{
 }
 
 .usage{
-    position: relative;
-}
-
-.usage img{
-    width: 802px;
-    max-width: 100%;
+    background: url('../src/img/fond_blanc.png');
+    height: 319px;
+    max-width: 70rem;
+    margin: 0 auto;
 }
 
 .usageText{
-    position: absolute;
-    left: 36%;
-    top: 30%;
-    background: url(../src/img/fond_blanc.png);
+    padding-top: 8.1em;
 }
+
 
 .bleu{color: #9A9EE3;}
 
@@ -352,13 +348,6 @@ footer h3{
 
 /* MEDIA QUERIES */
 
-@media  screen and (max-width:1304px){
-    .usageText {
-        position: absolute;
-        left: 30%;
-        top: 30%;
-    }
-}
 
 @media screen and (max-width:1243px){
     .copyright{
@@ -402,13 +391,6 @@ footer h3{
     }
 }
 
-@media screen and (max-width:996px){
-    .usageText {
-        position: absolute;
-        left: 23%;
-        top: 30%;
-    }
-}
 @media screen and (max-width:962px){
     footer ul{
         padding-left: 0.3em;
@@ -425,16 +407,6 @@ footer h3{
     }
 }
 
-@media screen and (max-width:834px){
-    article:nth-of-type(4) img{
-        width: -webkit-fill-available;
-    }
-    .usageText {
-        position: absolute;
-        left: 23%;
-        top: 30%;
-    } 
-}
 @media screen and (max-width:830px){
     .footera{
         padding-bottom: 1.6em;
@@ -449,16 +421,7 @@ footer h3{
         margin: 0;
     }
 }
-@media screen and (max-width:770px){
-    article:nth-of-type(4) a{
-        margin: 0;
-    }
-    .usageText {
-        position: absolute;
-        left: 14%;
-        top: 30%;
-    } 
-}
+
 @media screen and (max-width:719px){
     .espace{
         padding-top: 11em;
@@ -498,9 +461,9 @@ footer h3{
         padding: 6em 2em 2em 2em;
     }
 }
-@media screen and (max-width:408px){
-    article{
-        text-align: center;
+@media screen and (max-width:413px){
+    .mainLinks a:nth-of-type(2){
+        margin-top: 10px;
     }
 }
 @media screen and (max-width:400px){
