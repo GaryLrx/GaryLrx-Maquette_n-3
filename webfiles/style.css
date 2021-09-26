@@ -132,7 +132,9 @@ main p{
     max-width: 100%;
 }
 
-.usage{position: relative;}
+.usage{
+    position: relative;
+}
 
 .usage img{
     width: 802px;
@@ -143,6 +145,7 @@ main p{
     position: absolute;
     left: 36%;
     top: 30%;
+    background: url(../src/img/fond_blanc.png);
 }
 
 .bleu{color: #9A9EE3;}
